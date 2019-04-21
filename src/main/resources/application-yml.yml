@@ -1,0 +1,8 @@
+name: nihui123
+
+person:
+  name: nihui
+  age: 24
+
+#参数引用
+information: name: ${name},age: ${person.age}

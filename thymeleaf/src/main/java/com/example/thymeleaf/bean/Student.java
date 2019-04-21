@@ -1,4 +1,4 @@
-package com.example.thymeleaf.controller;
+package com.example.thymeleaf.bean;
 
 /**
  * @ClassName Student

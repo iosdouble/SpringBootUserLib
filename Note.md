@@ -42,6 +42,14 @@
 
 
 
+## 3 静态资源和拦截器处理
+
+* classpath:/META-INF/resources
+* classpath:/resources
+* classpath:/static
+* classpath:/public
+
+### 3.1 接管 Spring Boot 的 Web 配置
 
 
 

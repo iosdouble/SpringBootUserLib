@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+//@ComponentScan("com.example.thymeleaf.controller")
 public class ThymeleafApplication {
 
     public static void main(String[] args) {

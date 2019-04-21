@@ -1,5 +1,7 @@
 package com.example.web.config;
 
+import org.springframework.context.annotation.Configuration;
+
 /**
  * @ClassName MyWebMvcConfigurerAdapter
  * @Author nihui
@@ -7,6 +9,7 @@ package com.example.web.config;
  * @Version 1.0
  * @Description TODO
  */
+@Configuration
+public class MyWebMvcConfigurerAdapter extends  {
 
-public class MyWebMvcConfigurerAdapter {
 }

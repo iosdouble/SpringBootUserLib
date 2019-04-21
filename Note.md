@@ -26,7 +26,19 @@
 
 ### 2.1 Spring MVC 自动配置
 
+1. 引入 ContentNegotiatingViewResolver 和 BeanNameViewResolver beans。
+2. 对静态资源的支持，包括对 WebJars 的支持。
+3. 自动注册 Converter，GenericConverter，Formatter beans。
+4. 对 HttpMessageConverters 的支持。
+5. 自动注册 MessageCodeResolver。
+6. 对静态 index.html 的支持。
+7. 对自定义 Favicon 的支持。
 
+### 2.2 模板引擎
+* FreeMarker--------------------------3W1H（who,what,when,how）
+* Groovy
+* Thymeleaf(官方推荐)
+* Mustache
 
 
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+</head>
+<body>
+
+<div style="text-align: center;margin:0 auto;width: 1000px; ">
+    <h1>欢迎访问我的博客https://blog.csdn.net/nihui123</h1>
+    <table width="100%" border="1" cellspacing="1" cellpadding="0">
+        <tr>
+            <td>学号</td>
+            <td>姓名</td>
+            <td>年龄</td>
+            <td>性别</td>
+        </tr>
+        <!--/*@thymesVar id="learnList" type=""*/-->
+        <tr th:each="student : ${studentList}">
+            <td th:text="${student.sid}"></td>
+            <td th:text="${student.sName}"></td>
+            <td th:text="${student.sAge}"></td>
+            <td th:text="${student.sSex}"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
